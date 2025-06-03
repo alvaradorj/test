@@ -41,7 +41,7 @@ def extraer_datos_desde_pdf(pdf_bytes):
     return datos
 
 st.title("Convertidor PDF → Excel de Tramos")
-st.markdown("Carga un PDF y obtén un Excel con los tramos de la carrera.")
+st.markdown("Carga un PDF y obtén un Excel con los tramos de la carrera para importar en Rabbit.")
 
 uploaded = st.file_uploader("Sube tu archivo PDF", type="pdf")
 if uploaded is not None:
